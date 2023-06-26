@@ -4,11 +4,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Final Jeopardy</title>
   </head>
   <body>
-    <h1>Final Jeopardy</h1>
+    <header><h1>FINAL ROUND</h1></header>
+    
+    <nav>
+      <div class="player-turn"><h2>PLAYER TURN</h2></div>
+    </nav>
+
+    <main class="class-final-main">
+      <div class="final-category">FINAL CATEGORY</div>
+      <div class="final-question-animation">
+        <div class="finalQ">FINAL QUESTION </div>
+        <div class="click-bet"> CLICK [BET] TO PROCEED</div>
+      </div>
+      <div class="modal">
+        <p></p>
+        <input type="text" class="final-input">
+        <button class="submit-button">SUBMT</button>
+      </div>
+    </main>
+
+    <section>
+      <div class="player-container">
+        <span id="player1"></span><div id="score1"></div>
+        <span id="player2"></span><div id="score2"></div>
+      </div>
+      <form class="final-form">
+        <!-- <input class="input-bet-final" type="text" placeholder="Point bet amount...">
+        <input class="input-bet-final" type="text" placeholder="Final answer..."> -->
+        <button class="bet-button">BET</button>
+      </form>
+    </section>
+
+    <footer >
+      <div class="footer">FOOTER SITE INFORMATION</div>  
+    </footer>
+
     <!-- Do not change the script source. Allows import/export to work. -->
-    <script src="./scripts/index.js" type="module"></script>
+    <script src="./scripts/final.js" type="module"></script>
   </body>
 </html>
