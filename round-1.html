@@ -4,11 +4,122 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>Jeopardy</title>
   </head>
   <body>
-    <h1>Round One</h1>
+    <header><h1>FIRST ROUND</h1></header>
+    <nav>
+      <div class="player-turn"></div>
+    </nav>
+    <main>
+      <table class="tables" style="width: 100%">
+        <tr>
+          <th>CATEGORY</th>
+          <th>CATEGORY</th>
+          <th>CATEGORY</th>
+          <th>CATEGORY</th>
+          <th>CATEGORY</th>
+          <th>CATEGORY</th>
+        </tr>
+        <tr>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+        </tr>
+        <tr>
+          <td>300</td>
+          <td>300</td>
+          <td>300</td>
+          <td>300</td>
+          <td>300</td>
+          <td>300</td>
+        </tr>
+        <tr>
+          <td>400</td>
+          <td>400</td>
+          <td>400</td>
+          <td>400</td>
+          <td>400</td>
+          <td>400</td>
+        </tr>
+        <tr>
+          <td>500</td>
+          <td>500</td>
+          <td>500</td>
+          <td>500</td>
+          <td>500</td>
+          <td>500</td>
+        </tr>
+      </table>
+      <div class="section-form-container">
+
+        <!-- 
+        <div id="myModal" class="modal">
+          <div class="modal-content" id="modalContent">
+           
+          </div>
+        </div> -->
+
+        <div class="modal">
+          <div class="modal-backdrop"></div>
+          <div class="modal-content">
+            <p></p>
+            <input type="text" class="answer-input">
+            <div class="button-container">
+              <button class="guess-button">GUESS</button>
+              <button class="pass-button">PASS</button>
+            </div>
+          </div>
+        </div>
+
+       <!--  <form class="section-form">
+          <div>
+            <input
+              class="class-form-input"
+              id="userInput"
+              type="text"
+              placeholder="User Input..."
+            />
+          </div>
+
+          <div>
+            <a href="#"><button class="guess-button">GUESS</button></a>
+            <a href="#"><button class="pass-button">PASS</button></a>
+          </div>
+        </form> -->
+      </div>
+    </main>
+    <section>
+      <div class="in-section-container">
+        <div class="player-container">
+          <span>Player 1: Score: </span><div id="player1"></div>
+          <span>Player 2: Score: </span><div id="player2"></div>
+        </div>
+        <div class="class-next-round">
+          <a href="round-2.html">
+            <button class="next-round">NEXT ROUND</button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer">FOOTER SITE INFORMATION</div>
+    </footer>
     <!-- Do not change the script source. Allows import/export to work. -->
-    <script src="./scripts/index.js" type="module"></script>
+    <script src="./scripts/round-1.js" type="module"></script>
+    <script src="./scripts/placeholder-questions.js" type="module"></script>
   </body>
 </html>
